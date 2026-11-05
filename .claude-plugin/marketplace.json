@@ -1,0 +1,14 @@
+{
+  "name": "rodioniurev-latex",
+  "description": "LaTeX tools for Claude Code",
+  "owner": {
+    "name": "rodioniurev"
+  },
+  "plugins": [
+    {
+      "name": "latex-texstudio",
+      "source": "./plugins/latex-texstudio",
+      "description": "TeXstudio + pdflatex workflow with tested Cyrillic and multilingual preambles and a compact log parser"
+    }
+  ]
+}

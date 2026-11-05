@@ -1,0 +1,11 @@
+{
+  "name": "latex-texstudio",
+  "version": "0.1.0",
+  "description": "TeXstudio + pdflatex workflow with tested Cyrillic and multilingual preambles and a compact log parser",
+  "author": {
+    "name": "rodioniurev"
+  },
+  "repository": "https://github.com/rodioniurev/claude-latex-texstudio",
+  "license": "MIT",
+  "keywords": ["latex", "texstudio", "pdflatex", "cyrillic", "russian"]
+}

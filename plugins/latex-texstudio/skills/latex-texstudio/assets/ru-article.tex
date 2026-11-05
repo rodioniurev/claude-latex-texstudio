@@ -1,0 +1,33 @@
+% !TeX program = pdflatex
+% !TeX encoding = UTF-8
+% !TeX spellcheck = ru_RU
+\documentclass[a4paper,12pt]{article}
+
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english,russian]{babel}
+
+\usepackage[left=3cm,right=1.5cm,top=2cm,bottom=2cm]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\usepackage{csquotes}
+\usepackage[backend=biber,style=gost-numeric,language=auto,autolang=other]{biblatex}
+% \addbibresource{references.bib}
+\usepackage{hyperref}
+
+\title{Название работы}
+\author{Автор}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\section{Введение}\label{sec:intro}
+Текст работы. \enquote{Цитата} и ссылка на раздел~\ref{sec:intro}.
+
+\begin{equation}
+  E = mc^2, \quad \text{где } c \text{ — скорость света.}
+\end{equation}
+
+% \printbibliography
+\end{document}
