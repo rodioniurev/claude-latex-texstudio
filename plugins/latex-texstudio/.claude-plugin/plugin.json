@@ -1,10 +1,12 @@
 {
   "name": "latex-texstudio",
-  "version": "0.1.0",
+  "displayName": "LaTeX + TeXstudio (Cyrillic-ready)",
+  "version": "0.1.1",
   "description": "TeXstudio + pdflatex workflow with tested Cyrillic and multilingual preambles and a compact log parser",
   "author": {
     "name": "rodioniurev"
   },
+  "homepage": "https://github.com/rodioniurev/claude-latex-texstudio",
   "repository": "https://github.com/rodioniurev/claude-latex-texstudio",
   "license": "MIT",
   "keywords": ["latex", "texstudio", "pdflatex", "cyrillic", "russian"]
