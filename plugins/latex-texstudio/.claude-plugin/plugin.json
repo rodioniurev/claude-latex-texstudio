@@ -1,7 +1,7 @@
 {
   "name": "latex-texstudio",
   "displayName": "LaTeX + TeXstudio (Cyrillic-ready)",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "TeXstudio + pdflatex workflow with tested Cyrillic and multilingual preambles and a compact log parser",
   "author": {
     "name": "rodioniurev"

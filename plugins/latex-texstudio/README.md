@@ -20,6 +20,8 @@ When the skill is active, Claude may run these commands in your project director
 - `python scripts/texlog.py main.log`, the bundled log parser. It only reads the log file and prints a summary. It uses the Python standard library.
 - `pdffonts`, `pdftotext` and `pdftoppm` from Poppler, to check fonts and the rendered result.
 
+If the user has configured a TeXstudio MCP server, Claude can also use its tools. The plugin itself does not start, install or contact any server: the user adds one explicitly with `claude mcp add`, and it only listens on `127.0.0.1`.
+
 The skill also includes a starter template (`assets/ru-article.tex`), a helper for Cyrillic in `listings` (`assets/lst-cyrillic.tex`) and a table of languages (`references/languages.md`).
 
 ## Requirements

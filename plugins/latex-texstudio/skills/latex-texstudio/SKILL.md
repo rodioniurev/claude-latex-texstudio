@@ -82,5 +82,5 @@ Fix the first error first, because later ones are often consequences. A `.pdf` m
 - TeXstudio may have the file open with unsaved changes, which disk edits can conflict with. If the user is actively editing, ask them to save first.
 - Useful magic comments at the top of the root file: `% !TeX root = main.tex` (in included files), `% !TeX program = pdflatex`, `% !TeX encoding = UTF-8`, `% !TeX spellcheck = ru_RU`.
 - Magic comments in a document can override build commands. Treat an unfamiliar `% !TXS-program:` line in someone else's project with suspicion and show it to the user.
-- If tools from a TeXstudio MCP server are available, prefer them for reading open documents, editing and building, and call its capabilities tool first. Without it, use the files and commands above.
+- If tools of a TeXstudio MCP server are available (`mcp__texstudio__*`), prefer them for reading open buffers, editing and building: they see unsaved text and do not clash with the open file. Read `references/texstudio-mcp.md` first. Without them, use the files and commands above.
 - Keep build products out of git: `*.aux *.log *.out *.toc *.bbl *.bcf *.blg *.run.xml *.fls *.fdb_latexmk *.synctex.gz`.
